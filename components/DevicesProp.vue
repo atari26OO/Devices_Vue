@@ -1,8 +1,7 @@
 <template>
   <div id="devicesprop">
-    <h1>Devices for Clients</h1>
 
-    <table> <!-- awwwkkk -->
+    <table>
       <tr>
         <th>Device</th>
         <th>ID</th>
@@ -10,10 +9,10 @@
         <th>Date and Time</th>
       </tr>
       <tr>
-        <td><span id='load_name'>{{devices.name}}</span></td>
-        <td><span id='load_id'>{{devices.id}}</span></td>
-        <td><span id='load_value'>{{devices.value}}</span></td>
-        <td><span id='load_datetime'>{{datetime}}</span></td>
+        <td><span>{{devices.name}}</span></td>
+        <td><span>{{devices.id}}</span></td>
+        <td><span>{{devices.value}}</span></td>
+        <td><span>{{datetime}}</span></td>
       </tr>
     </table>
 
